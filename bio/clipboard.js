@@ -14,3 +14,7 @@ function copyToClipboard() {
         .then(() => alert("Copied to clipboard"))
         .catch((e) => alert(e.message));
 }
+
+document.addEventListener("contextmenu", function(event) {
+  event.preventDefault();
+});
