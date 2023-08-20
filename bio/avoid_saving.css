@@ -12,3 +12,13 @@ img:hover {
   opacity: 0;
   transition:opacity 2s;
 }
+
+#clipboard-button {
+  width: 100px;
+  height: 50px;
+}
+    
+#clipboard-button svg {
+  width: 25px;
+  height: 25px;
+}
