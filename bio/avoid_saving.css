@@ -14,13 +14,13 @@ img:hover {
 }
 
 #clipboard-button {
-  width: 14px;
-  height: 12px;
+  width: 40px;
+  height: 40px;
 }
     
 #clipboard-button svg {
-  width: 12px;
-  height: 10px;
+  width: 40px;
+  height: 40px;
 }
 
 #clipboard-icon {
