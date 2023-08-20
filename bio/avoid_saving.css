@@ -1,3 +1,8 @@
 img {
     pointer-events: none;
 }
+
+img:hover {
+  opacity: 0;
+  transition:opacity 2s;
+}
