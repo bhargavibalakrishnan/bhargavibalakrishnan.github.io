@@ -22,3 +22,7 @@ img:hover {
   width: 25px;
   height: 25px;
 }
+
+#clipboard-icon {
+  fill: white;
+}
