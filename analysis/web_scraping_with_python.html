@@ -151,56 +151,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			  This information will be helpful for businesses to ensure that they have the necessary LOTO products to comply with safety regulations & protect their workers.</p>
 
                   
-		  <h2 class="mb-3 mt-5">Data extraction steps</h2>
+		  <h2 class="mb-3 mt-5">Data extraction and cleaning steps</h2>
                   <p>1. Install Beautiful Soup, Selenium using <i>pip</i> command </p>
 		  <p>2. Import the necessary libraries - Pandas, BeautifulSoup, Requests, Webdriver using <i>import</i> command</p>
 		  <p>3. Initialize the Selenium driver and use <i>driver.get()</i> command to navigate to the <a href="https://www.bradyid.com/lockout-tagout/tags">Brady's LOTO product page</a></p>
 		  <p><i>driver.get('https://www.bradyid.com/en-us/products/safety/lockout-tagout')</i>
 		  <p>4. Find the HTML element that contains the data using the command - <i>find_all()</i></p>
                   <p>5. Scrape the product name and price using Selenium commands - <i>driver.find_element, content.get_attribute() and BeautifulSoup()</i></p>
+		  <p>6. Clean the extracted data using <i>strip(), split(), find(), contains() and slice()</i> commands</p>
 		  <p>6. Create a Pandas <i>pd.DataFrame()</i> to store the scraped data</p>
 		  <p>7. Save the DataFrame to a file using <i>to_csv()</i> command </p>
 		  <p>Input: <img src="Brady_LOTO_Product_Page.png" alt="Brady's LOTO product page" class="img-fluid"></p>
 		  <p>Output: <img src="Brady_LOTO_Product_Price.png" alt="Brady's LOTO product price" class="img-fluid"></p>
 		
-		<h2 class="mb-3 mt-5">Title</h2>
-                  <p>
-                      Desc
-                  <p><a href="">Link</a></p> continuation
-                  </p>
-                  <p>conti</p>
-                  <p>
-                      Desc
-                  </p>
-
-                  <h2 class="mb-3 mt-5">h2 Title</h2>
-                  <p>
-                      Desc
-                  </p>
-                  <p>Desc</p>
-                  <p>
-                      desc
-                  </p>
-                  <br />
-                  <h4 class="subheading">h4 Title</h4>
-                  <script src=""></script>
-                  <p>
-                      Desc
-                  </p>
-                  <p>Para </p>
-
-                  <h2 class="mb-3 mt-5">h2 Title</h2>
-                  <p>
-                      Para
-                  </p>
-                  <br />
-                  <h4 class="subheading">h4 Title</h4>
-                  
-                  <h4 class="subheading">h4 dESCp </h4>
-                  <script src=""></script>
-                  
-                  <h2 class="mb-3 mt-5">h2 tABLEAU</h2>
-                  
+		<h2 class="mb-3 mt-5">Findings and Presentation</h2>
+		<p>Output: <img src="Brady_LOTO_Product_Price_PowerBI.png" alt="Brady's LOTO product price Power BI" class="img-fluid"></p>
 
               </div> <!-- .col-md-8 -->
 
